@@ -11,7 +11,13 @@
 
 
     </h1>
- <a class="link-danger" href="page2.html"> Ссылка на page2 </a>
+    <nav class="nav">
+    <a class="nav-link active" aria-current="page" href="#">Вы сейчас находитесь здесь</a>
+    <a class="nav-link" href="page2.html">Перейти на страницу № 2</a>
+    <a class="nav-link disabled">Ссылка недоступна</a>
+    </nav>
+
+    <a class="link-danger" href="page2.html"> Ссылка на page2 </a>
     <div class="container" style="max-width: 400px">
 
 
@@ -52,6 +58,12 @@
             <input class="btn btn-success" type="button" value="Кнопка">
 
         </form>
-        </div>
+
+        <form>
+            <p><b>Многострочная текстовая форма:</b></p>
+            <p><textarea class="form-control" placeholder="Напишите ваши пожелания" ></textarea></p>
+            <p><input class="btn btn-success" type="submit"></p>
+        </form>
+    </div>
 </body>
 </html>
